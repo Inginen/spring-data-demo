@@ -2,8 +2,8 @@ package ru.sirius.springdatademo.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.sirius.springdatademo.entity.Pet;
+import ru.sirius.springdatademo.entity.Image;
 
 @Repository
-public interface PetRepository extends JpaRepository<Pet, Long> {
+public interface ImageRepository extends JpaRepository<Image, Long> {
 }
